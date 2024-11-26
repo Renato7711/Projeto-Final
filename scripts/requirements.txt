@@ -7,4 +7,3 @@ missingno
 matplotlib
 seaborn
 numpy
-sqlite3
