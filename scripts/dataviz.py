@@ -13,7 +13,7 @@ try:
     query = "SELECT * FROM dados"
     df = pd.read_sql_query(query, conn)
 except:
-    db_path = '/mount/src/Projeto-Final/scripts/banco.db'
+    db_path = '/mount/src/projeto-final/scripts/banco.db'
     conn = sqlite3.connect(db_path)
     query = "SELECT * FROM dados"
     df = pd.read_sql_query(query, conn)
